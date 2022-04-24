@@ -568,6 +568,9 @@ text-align: center;
 
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
+  .navLi{
+    font-size: 15px;
+  }
   .h1Style{
     font-size: large;
   }
