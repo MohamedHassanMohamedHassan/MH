@@ -792,7 +792,10 @@ text-align: center;
     width: 100%;
    }
    .footerImgC{
-     text-align: center;
+    transform: translateY(10px);
+    position: relative;
+    top:45%;
+    text-align: center;
    }
    .footerDivImg{
      margin-left: 0;
