@@ -282,8 +282,8 @@ outline: none;
 }
 
 #serv1ID{
-  margin-left: -5%;
-  margin-right: 5%;
+/*   margin-left: -5%;
+  margin-right: 5%; */
   opacity: 0;
   transition: 1.5s ease-in-out all;
 }
