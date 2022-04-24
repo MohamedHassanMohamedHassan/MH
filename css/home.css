@@ -807,6 +807,10 @@ text-align: center;
    width: 80%;
    margin-inline: 10%;
   }
+  
+  p{
+        line-height: 2.5;
+  }
   /*
 
    .section3{
