@@ -640,6 +640,7 @@ text-align: center;
     margin-inline: 10%;
    }
    .sec6img > img{
+     margin-inline: 0;
      width: 100%;
      max-height: 100%;
    }
@@ -652,9 +653,13 @@ text-align: center;
     width: 100%;
    }
    .footerImgC{
+    transform: translateY(10px);
+    position: relative;
+     top:45%;
      text-align: center;
    }
    .footerDivImg{
+     width:40%;
      margin-left: 0;
    }
    .footerDiv1P{
