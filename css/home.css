@@ -824,6 +824,14 @@ text-align: center;
    margin-left: 2%;
  }
   
+  .servWhatWeAreClarify{
+    width: 80%;
+  }
+  
+ .servc{
+ width: 46%;
+ }
+  
   /*
 
    .section3{
@@ -855,10 +863,7 @@ text-align: center;
    .sec5_1 > img{
      width: 100%;
    }
-   .servc{
-     width: 90%;
-     margin-inline: 5%;
-   }
+
    #creativePharasID{
      padding-top: 7%;
    }
