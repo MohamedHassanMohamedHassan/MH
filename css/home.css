@@ -817,6 +817,13 @@ text-align: center;
   p{
         line-height: 2.5;
   }
+
+   .sec2{
+   display: flex;
+   width: 60%;
+   margin-left: 2%;
+ }
+  
   /*
 
    .section3{
@@ -825,11 +832,7 @@ text-align: center;
    .mainPsecSerP {
      font-size: xx-large;
    }
-   .sec2{
-     flex-flow: column;
-     width: 90%;
-     margin-inline: 5%;
-   }
+
    .serv{
      width: 90%;
      margin-inline: 5%;
