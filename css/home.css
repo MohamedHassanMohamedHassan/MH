@@ -87,9 +87,7 @@ outline: none;
 
 /* wide pharas*/
 .front_phrase_container{
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
+  margin-top: 18%;
 }
 
 .txtCon{
@@ -124,9 +122,6 @@ outline: none;
 }
 
 .rightBtn{
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
   z-index: 2;
   background: rgba(0, 0, 0, .2);
   width: 30px;
@@ -136,6 +131,7 @@ outline: none;
   color: white;
   position: absolute;
   right: 0;
+  top: 312px;
   font-size: 20px;
   transition: all ,.5s linear;
 }
@@ -146,9 +142,6 @@ outline: none;
 }
 
 .leftBtn{
-  position: absolute;
-  transform: translateY(-50%);
-  top: 50%;
   z-index: 2;
   background: rgba(0, 0, 0, .2);
   width: 30px;
@@ -158,6 +151,7 @@ outline: none;
   color: white;
   position: absolute;
   left: 0;
+  top: 312px;
   font-size: 20px;
   transition: all ,.5s linear;
 }
@@ -200,13 +194,13 @@ outline: none;
 #MH_divID{
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
-  border-radius: 5%;
+border-radius: 5%;
 }
 
 .section2c{
   width: 100%;
   position: absolute;
-  top: 100%;
+  top: 625px;
 }
 
 
@@ -282,8 +276,8 @@ outline: none;
 }
 
 #serv1ID{
-/*   margin-left: -5%; */
-/*   margin-right: 5%; */
+  margin-left: -5%;
+  margin-right: 5%;
   opacity: 0;
   transition: 1.5s ease-in-out all;
 }
@@ -358,7 +352,6 @@ transition: 1.5s ease-in-out all 1.5s;
 
 #creativePharasID{
   padding-top: 8%;
-  padding-inline: 2%;
   opacity: 0;
   transition: 1.5s ease-in-out all;
 }
@@ -419,6 +412,7 @@ font-size: 100px;
 }
 
 .servWhatWeAreIcon{
+  margin-left: -9%;
   border: 2px solid;
   padding: 2%;
   border-radius: 50%;
@@ -440,7 +434,6 @@ color: #999999;
     color: #999999;
     text-align: center;
     margin-bottom: 5%;
-  padding-inline: 2%;
 }
 
 .section6{
@@ -569,15 +562,12 @@ text-align: center;
 
 
 @media only screen and (min-width: 300px) and (max-width: 600px) {
-  .navLi{
-    font-size: 15px;
-  }
   .h1Style{
     font-size: large;
   }
-/*   .rightBtn,.leftBtn {
+  .rightBtn,.leftBtn {
     top: 106px;
-  } */
+  }
   .section2c {
     top: 250px;
   }
@@ -644,7 +634,6 @@ text-align: center;
     margin-inline: 10%;
    }
    .sec6img > img{
-     margin-inline: 0;
      width: 100%;
      max-height: 100%;
    }
@@ -657,13 +646,9 @@ text-align: center;
     width: 100%;
    }
    .footerImgC{
-    transform: translateY(10px);
-    position: relative;
-     top:45%;
      text-align: center;
    }
    .footerDivImg{
-     width:40%;
      margin-left: 0;
    }
    .footerDiv1P{
@@ -796,10 +781,7 @@ text-align: center;
     width: 100%;
    }
    .footerImgC{
-    transform: translateY(10px);
-    position: relative;
-    top:45%;
-    text-align: center;
+     text-align: center;
    }
    .footerDivImg{
      margin-left: 0;
@@ -825,25 +807,6 @@ text-align: center;
    width: 80%;
    margin-inline: 10%;
   }
-  
-  p{
-        line-height: 2.5;
-  }
-
-   .sec2{
-   display: flex;
-   width: 60%;
-   margin-left: 2%;
- }
-  
-  .servWhatWeAreClarify{
-    width: 80%;
-  }
-  
- .servc{
- width: 46%;
- }
-  
   /*
 
    .section3{
@@ -852,7 +815,11 @@ text-align: center;
    .mainPsecSerP {
      font-size: xx-large;
    }
-
+   .sec2{
+     flex-flow: column;
+     width: 90%;
+     margin-inline: 5%;
+   }
    .serv{
      width: 90%;
      margin-inline: 5%;
@@ -875,7 +842,10 @@ text-align: center;
    .sec5_1 > img{
      width: 100%;
    }
-
+   .servc{
+     width: 90%;
+     margin-inline: 5%;
+   }
    #creativePharasID{
      padding-top: 7%;
    }
