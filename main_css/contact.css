@@ -1,0 +1,49 @@
+.contact-form{
+  max-width: 450px;
+  margin:10px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding-left: 32px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form input:not([type='submit']) + i{
+  height: 0;
+  position: relative;
+  float: left;
+  top: -36px;
+  left: 10px;
+  color: #6c757d;
+}
+
+.contact-form .submit-icon {
+  position: relative;
+    height: 0;
+    display: block;
+    top: -38px;
+    left: 7px;
+    color: aliceblue;
+}
+
+.contact-form .form-group {
+  position: relative;
+}
+
+.form-group .asterisx{
+  position: absolute;
+  right: 9px;
+  top: 5px;
+  color: #eb4646;
+  font-size: 22px;
+}
+
+.contact-form .custom-alert {
+  padding: 5px 10px;
+  display: none;
+}
